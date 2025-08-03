@@ -1,0 +1,16 @@
+.portfolio{
+    min-height: 100vh;
+    padding-top: 100px;
+    
+}
+.layer{
+background-color: #1abc9ce6;
+opacity: 0;
+transition: all 0.3s ease-in-out;
+}
+.layer:hover{
+    opacity: 0.8;
+}
+.bigImg{
+    z-index: 1000;
+}

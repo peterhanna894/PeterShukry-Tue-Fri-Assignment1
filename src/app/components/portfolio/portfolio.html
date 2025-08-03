@@ -1,0 +1,69 @@
+
+    <div class="mb-4">
+        <div class="portfolio">
+          
+                <div class="text-center pt-4" style="color: rgb(44, 62, 80);">
+                    <h2 class="text-uppercase mb-3 fs-1 fw-bolder">portfolio component</h2>
+                    <div class="d-flex align-items-center justify-content-center mb-3">
+                        <div class="line me-3" style="background-color: rgb(44, 62, 80); height: 4px; width: 80px;"></div>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="line ms-3" style="background-color: rgb(44, 62, 80); height: 4px; width: 80px;"></div>
+                    </div>
+                </div>
+        
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="rounded-3 overflow-hidden position-relative" (click)="openImg('./images/poert1.png')"><img
+                                alt="" class="w-100 rounded-3" src="./images/poert1.png">
+                            <div
+                                class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="rounded-3 overflow-hidden position-relative" (click)="openImg('images/port2.png')"><img
+                                alt="" class="w-100 rounded-3" src="./images/port2.png">
+                            <div
+                                class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="rounded-3 overflow-hidden position-relative" (click)="openImg('./images/port3.png')"><img
+                                alt="" class="w-100 rounded-3" src="./images/port3.png">
+                            <div
+                                class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="rounded-3 overflow-hidden position-relative" (click)="openImg('./images/poert1.png')"><img
+                                alt="" class="w-100 rounded-3" src="./images/poert1.png">
+                            <div
+                                class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="rounded-3 overflow-hidden position-relative" (click)="openImg('./images/port2.png')"><img
+                                alt="" class="w-100 rounded-3" src="./images/port2.png">
+                            <div
+                                class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="rounded-3 overflow-hidden position-relative" (click)="openImg('./images/port3.png')"><img
+                                alt="" class="w-100 rounded-3" src="./images/port3.png">
+                            <div
+                                class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                                <i class="text-white fa-solid fa-plus fa-6x"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div (click)="bigImgDNone()" [class.d-none]="displayNone" class="bigImg position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 d-flex justify-content-center align-items-center ">
+            <img class="w-75" alt="" [src]="imgSrc"></div>
+    </div>
